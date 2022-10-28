@@ -1,16 +1,14 @@
 # bloc_api_flutter
 
-A new Flutter project.
+A Flutter project using bloc pattern.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is an exercise.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The objective is to consume a simple api, get all data, and provide it in the application.
+Bloc pattern it's based in the idea of using events to trigger modifications in states.
+This example shows how occurs the association between events and states.
+When a initial state starts, the application is initiated with initial state. To change this state
+another event is called by an action in UI(a button click in this case), and the new state is started,
+loading the data.
